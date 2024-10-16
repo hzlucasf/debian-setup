@@ -4,7 +4,7 @@ sudo apt --allow-releaseinfo-change update
 
 sudo apt upgrade -y
 
-sudo apt install wget build-essential curl git zsh ripgrep libsdl2-dev gcc-multilib gdb zip cmake file -y
+sudo apt install wget build-essential curl git zsh ripgrep libsdl2-dev gcc-multilib gdb zip cmake file valgrind htop -y
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
